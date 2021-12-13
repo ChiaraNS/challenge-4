@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coding Quiz Challenge</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <!--timer + high scores link-->
     <div class="header">
         <div class="scores">
             <a href="#">View High Scores</a>
         </div>
-        <span></span>
+        <h3 id="timer"></h3>
     </div>
 
-    <sect
- 
+    <!--quiz itself-->
+    <main class="test-main">
+        <div id="what-to-do">
+            <h2 id="quizTitle">Coding Quiz Challenge</h2>
+            <p>
+                Tey to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                answers will penalize your score/time by ten seconds!
+            </p>
+        </div>
+
+        <!--Q/A-->
+        <div id="quest-ans">
+            <div>
+
+            </div>
+        </div>
+
+        <!--view scores-->
+        <div id="view-scores">
+            <h2>All Done!</h2>
+            <p class="score"></p>
+            <label for="initials">Enter Initials:</label>
+            <input type="text" name="enter-initials" class="initial-input" placeholder="" />
+            <button id="submit-btn" type="submit">Submit</button>
+        </div>
+    </main>
+
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
