@@ -20,28 +20,37 @@
 
     <!--quiz itself-->
     <main class="test-main">
-        <div id="what-to-do">
+        <div class="what-to-do">
             <h2 id="quizTitle">Coding Quiz Challenge</h2>
             <p>
-                Tey to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
                 answers will penalize your score/time by ten seconds!
             </p>
         </div>
 
         <!--Q/A-->
-        <div id="quest-ans">
+        <div class="quest-ans">
             <div>
 
             </div>
         </div>
 
         <!--view scores-->
-        <div id="view-scores">
+        <div class="view-score">
             <h2>All Done!</h2>
             <p class="score"></p>
             <label for="initials">Enter Initials:</label>
-            <input type="text" name="enter-initials" class="initial-input" placeholder="" />
+            <input type="text" name="enter-initials" class="initial-input" placeholder="" maxlength="2" />
             <button id="submit-btn" type="submit">Submit</button>
+        </div>
+
+        <div class="high-scores">
+            <h2>High Scores</h2>
+            <div class="score-rank">
+
+            </div>
+            <button id="back-btn">Go back</button>
+            <button id="clear-btn">Clear high scores</button>
         </div>
     </main>
 
