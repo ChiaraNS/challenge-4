@@ -1,3 +1,14 @@
+//starter variables
+var timerE1 = document.querySelector("#timer");
+var quizMain = document.querySelector(".what-to-do");
+var startBtn = document.querySelector("#start-btn");
+var quizQuAns = document.querySelector(".quest-ans");
+var questOpt = document.querySelector("#questions");
+var ansOpt = document.querySelector("#answers");
+var endTest = document.querySelector(".view-score");
+var scoreValue = document.querySelector(".score");
+var 
+// questions + answers
 var questions = [
     {
         question: "Commonly used data types do NOT include:",
@@ -40,4 +51,5 @@ var questions = [
         ans: "4. Console.log",
     },
 
-]
+];
+//end questions/ans
