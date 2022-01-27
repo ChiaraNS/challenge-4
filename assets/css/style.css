@@ -1,0 +1,88 @@
+* {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.body {
+margin: 3%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.scores a {
+    color: violet;
+    text-decoration: none;
+}
+
+.what-to-do {
+    text-align: center;
+    padding: 50px;
+    margin: 15px;
+}
+
+.what-to-do p {
+    font-size: 25px;
+    margin: 2% 20%;
+}
+
+#quizTitle {
+    font-size: 40px;
+}
+
+#start-btn {
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.quest-ans {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 2% 25%;
+}
+
+.quest-ans button {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+    padding: 10px 50px 10px 10px;
+    border-radius: 15px;
+    background-color: purple;
+    color: white;
+}
+
+.inCorrect {
+    margin: 2% 25%;
+    padding: 2%;
+    border-top: 2px solid gray;
+    font-size: 20px;
+    color: gray;
+
+}
+
+.view-score h2, .high-scores h2 {
+    font-size: 40px;
+}
+
+.view-score {
+    text-align: center;
+    padding: 20px;
+}
+
+#submit-btn {
+    margin: 10px 50%;
+
+}
+#submit-btn, #back-btn, #clear-btn {
+    border-radius: 15px;
+    color: white;
+    background-color: purple;
+    padding: 5px;
+}

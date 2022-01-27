@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="body">
     <!--timer + high scores link-->
     <div class="header">
         <div class="scores">
@@ -34,25 +34,30 @@
             <div id="questions"></div>
             <div id="answers"></div>
         </div>
+       
+        <section>
+            <div class="inCorrect"></div>
+        </section>
 
         <!--view scores-->
         <div class="view-score">
-            <h2>All Done!</h2>
-            <p class="score"></p>
-            <label for="initials">Enter Initials:</label>
-            <input type="text" name="enter-initials" class="initial-input" placeholder="" maxlength="2" />
-            <button id="submit-btn" type="submit">Submit</button>
-        </div>
-
-        <div class="high-scores">
-            <h2>High Scores</h2>
-            <div class="score-rank">
-
+            <div class="done-page">
+                <h2>All Done!</h2>
+                <p class="score"></p>
+                <label for="initials">Enter Initials:</label>
+                <input type="text" name="enter-initials" class="initial-input" placeholder="" maxlength="2" />
+                <button id="submit-btn" type="submit">Submit</button>
+            </div>
+            <div class="high-scores">
+                <h2>High Scores</h2>
+                <div class="score-value"></div>
+                
             </div>
             <button id="back-btn">Go back</button>
             <button id="clear-btn">Clear high scores</button>
         </div>
     </main>
+
 
     <script src="assets/js/script.js"></script>
 </body>
