@@ -5,7 +5,6 @@
 * [Code Quiz Link](https://chiarans.github.io/code-quiz/)
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Useful Links](#useful-links)
 
 
 ## General info
